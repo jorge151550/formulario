@@ -1,5 +1,6 @@
 import { Router } from "express";
 import {deleteEstablecimiento, getEstablecimiento,getEstablecimientos, postEstablecimiento, putEstablecimiento} from '../controllers/establecimiento.controller.js'
+
 const router = Router()
 router.get('/establecimientos', getEstablecimientos)
 router.get('/establecimientos/:id', getEstablecimiento)

@@ -1,4 +1,5 @@
 import { pool } from "../connectiondb.js"
+import { Establecimiento, sequelize } from '../model/establecimiento.model.js';
 
 export const getEstablecimientos = async (req, res) => {
   try {
